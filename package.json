@@ -1,0 +1,21 @@
+{
+  "name": "ian-connors-online-resume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Slick online resume for Ian Connors showcasing cloud, infrastructure and networking experience.",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo \"Static site – no build step\""
+  },
+  "keywords": [
+    "resume",
+    "cv",
+    "azure",
+    "cloud",
+    "infrastructure",
+    "networking"
+  ],
+  "author": "Ian Connors",
+  "license": "MIT"
+}
+
