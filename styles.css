@@ -143,6 +143,12 @@ a:hover {
   object-fit: cover;
 }
 
+.sidebar .avatar {
+  width: 112px;
+  height: 112px;
+  border-radius: 28px;
+}
+
 .name {
   font-size: 1.4rem;
   letter-spacing: 0.04em;
