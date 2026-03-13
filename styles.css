@@ -61,9 +61,10 @@ a:hover {
 .site-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 16px;
-  padding: 14px 18px;
+  min-height: 56px;
+  padding: 16px 24px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.88);
   border: 1px solid rgba(209, 213, 219, 0.9);
@@ -128,7 +129,9 @@ a:hover {
 
 .brand {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
   margin-bottom: 20px;
 }
 
@@ -143,9 +146,9 @@ a:hover {
 }
 
 .sidebar .avatar {
-  width: 112px;
-  height: 112px;
-  border-radius: 28px;
+  width: 151px;
+  height: 151px;
+  border-radius: 38px;
 }
 
 .name {
