@@ -317,6 +317,12 @@ a:hover {
   line-height: 1.6;
 }
 
+.hero-aspiration {
+  margin-top: 14px;
+  padding-left: 14px;
+  border-left: 3px solid var(--accent);
+}
+
 .section-title {
   font-size: 0.9rem;
   text-transform: uppercase;
