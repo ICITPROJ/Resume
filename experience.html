@@ -20,7 +20,7 @@
   <body>
     <div class="site-shell">
       <header class="site-header">
-        <nav class="top-nav">
+        <nav class="top-nav" aria-label="Main">
           <a href="index.html">Overview</a>
           <a href="experience.html" class="nav-active">Experience</a>
           <a href="recommendations.html">Recommendations</a>
@@ -28,16 +28,16 @@
       </header>
 
       <div class="page">
-        <aside class="sidebar">
-        <div class="brand">
-          <div>
-            <h1 class="name">Ian Connors</h1>
-            <p class="role">Cloud & Infrastructure Engineer</p>
+        <aside class="sidebar" aria-label="Profile and contact">
+          <div class="brand">
+            <div>
+              <h1 class="name">Ian Connors</h1>
+              <p class="role">Cloud & Infrastructure Engineer</p>
+            </div>
+            <img src="profile.png" alt="Ian Connors" class="avatar" />
           </div>
-          <img src="profile.png" alt="Ian Connors" class="avatar" />
-        </div>
 
-        <div class="contact">
+          <div class="contact">
           <h2 class="sidebar-title">Contact</h2>
           <ul>
             <li>West London, UK</li>
@@ -107,13 +107,12 @@
             <li>Spanish (advanced)</li>
             <li>French (basic)</li>
           </ul>
-        </div>
+          </div>
         </aside>
 
         <main class="content">
-
-        <section>
-          <h3 class="section-title">Professional Experience</h3>
+          <section aria-labelledby="experience-heading">
+            <h2 id="experience-heading" class="section-title">Professional Experience</h2>
 
           <article class="card">
             <header class="card-header">
@@ -257,7 +256,7 @@
               stakeholder management and commercial awareness in later IT roles.
             </p>
           </article>
-        </section>
+          </section>
         </main>
       </div>
     </div>

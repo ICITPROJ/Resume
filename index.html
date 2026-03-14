@@ -20,7 +20,7 @@
   <body>
     <div class="site-shell">
       <header class="site-header">
-        <nav class="top-nav">
+        <nav class="top-nav" aria-label="Main">
           <a href="index.html" class="nav-active">Overview</a>
           <a href="experience.html">Experience</a>
           <a href="recommendations.html">Recommendations</a>
@@ -28,16 +28,16 @@
       </header>
 
       <div class="page">
-        <aside class="sidebar">
-        <div class="brand">
-          <div>
-            <h1 class="name">Ian Connors</h1>
-            <p class="role">Cloud & Infrastructure Engineer</p>
+        <aside class="sidebar" aria-label="Profile and contact">
+          <div class="brand">
+            <div>
+              <h1 class="name">Ian Connors</h1>
+              <p class="role">Cloud & Infrastructure Engineer</p>
+            </div>
+            <img src="profile.png" alt="Ian Connors" class="avatar" />
           </div>
-          <img src="profile.png" alt="Ian Connors" class="avatar" />
-        </div>
 
-        <div class="contact">
+          <div class="contact">
           <h2 class="sidebar-title">Contact</h2>
           <ul>
             <li>West London, UK</li>
@@ -53,10 +53,10 @@
               </a>
             </li>
           </ul>
-        </div>
+          </div>
 
-        <div class="sidebar-section">
-          <h2 class="sidebar-title">Snapshot</h2>
+          <div class="sidebar-section">
+            <h2 class="sidebar-title">Snapshot</h2>
           <div class="stats">
             <div class="stat">
               <span class="stat-number">5+</span>
@@ -87,10 +87,10 @@
             <li>Microsoft 365 & Teams</li>
             <li>Enterprise AV & conferencing</li>
           </ul>
-        </div>
+          </div>
 
-        <div class="sidebar-section">
-          <h2 class="sidebar-title">Certifications</h2>
+          <div class="sidebar-section">
+            <h2 class="sidebar-title">Certifications</h2>
           <ul>
             <li>Microsoft Certified: Azure Administrator (AZ-104)</li>
             <li>AZ-700 (in progress)</li>
@@ -98,86 +98,86 @@
             <li>Terraform (in preparation)</li>
             <li>Control4 Certified Automation Programmer</li>
           </ul>
-        </div>
+          </div>
 
-        <div class="sidebar-section">
-          <h2 class="sidebar-title">Languages</h2>
+          <div class="sidebar-section">
+            <h2 class="sidebar-title">Languages</h2>
           <ul>
             <li>English (native)</li>
             <li>Spanish (advanced)</li>
             <li>French (basic)</li>
           </ul>
-        </div>
+          </div>
         </aside>
 
         <main class="content">
-        <section class="hero">
-          <p class="eyebrow">Technical Engineer & Senior Infrastructure Engineer</p>
-          <h2>Designing resilient, secure cloud and network platforms.</h2>
-          <p class="hero-text">
-            Technical Engineer and Senior Infrastructure Engineer with 5+ years of hands-on IT
-            experience and a decade of broader technology work across enterprise, MSP and financial
-            services. I specialise in Azure IaaS and App Services, hybrid networking, enterprise
-            storage and Zero Trust security—taking ownership from design and implementation through
-            to documentation and long‑term maintainability.
-          </p>
-          <p class="hero-text">
-            Known for calm, VIP‑ready support and for delivering measurable impact—from leading a
-            £120k annual saving via Zoom‑to‑Teams migration to architecting secure, scalable
-            infrastructure for global customers.
-          </p>
-          <p class="hero-text hero-aspiration">
-            I progressed from IT support into infrastructure engineering at Intelliflo, a financial
-            software house, and I am keen to bring that experience into a hedge fund or another
-            high‑performing investment environment where infrastructure reliability and security
-            directly support the business.
-          </p>
-        </section>
+          <section class="hero" aria-labelledby="hero-heading">
+              <p class="eyebrow">Technical Engineer & Senior Infrastructure Engineer</p>
+            <h2 id="hero-heading">Designing resilient, secure cloud and network platforms.</h2>
+            <p class="hero-text">
+              Technical Engineer and Senior Infrastructure Engineer with 5+ years of hands-on IT
+              experience and a decade of broader technology work across enterprise, MSP and financial
+              services. I specialise in Azure IaaS and App Services, hybrid networking, enterprise
+              storage and Zero Trust security—taking ownership from design and implementation through
+              to documentation and long‑term maintainability.
+            </p>
+            <p class="hero-text">
+              Known for calm, VIP‑ready support and for delivering measurable impact—from leading a
+              £120k annual saving via Zoom‑to‑Teams migration to architecting secure, scalable
+              infrastructure for global customers.
+            </p>
+            <p class="hero-text hero-aspiration">
+              I progressed from IT support into infrastructure engineering at Intelliflo, a financial
+              software house, and I am keen to bring that experience into a hedge fund or another
+              high‑performing investment environment where infrastructure reliability and security
+              directly support the business.
+            </p>
+          </section>
 
-        <section>
-          <h3 class="section-title">Key Achievements</h3>
-          <div class="grid">
-            <article class="card">
-              <h4>£120k annual saving</h4>
-              <p class="card-text">
-                Led a company‑wide migration from Zoom to Microsoft Teams, coordinating stakeholders,
-                managing change and de‑risking the cut‑over to deliver measurable cost savings.
-              </p>
-            </article>
-            <article class="card">
-              <h4>Zero Trust & security uplift</h4>
-              <p class="card-text">
-                Implemented Zero Trust frameworks, advanced network security policies and RBAC in
-                partnership with SecOps across Palo Alto, Meraki, Cisco and Microsoft platforms.
-              </p>
-            </article>
-            <article class="card">
-              <h4>Enterprise AV modernisation</h4>
-              <p class="card-text">
-                Delivered a £45k AV upgrade with minimal disruption, modernising conference and
-                meeting spaces and improving day‑to‑day collaboration.
-              </p>
-            </article>
-            <article class="card">
-              <h4>Documentation & mentoring</h4>
-              <p class="card-text">
-                Produced ISO 27001‑aligned documentation, runbooks and knowledge articles, and
-                mentored junior engineers to raise team capability and confidence.
-              </p>
-            </article>
-          </div>
-        </section>
+          <section aria-labelledby="achievements-heading">
+            <h2 id="achievements-heading" class="section-title">Key Achievements</h2>
+            <div class="grid">
+              <article class="card">
+                <h4>£120k annual saving</h4>
+                <p class="card-text">
+                  Led a company‑wide migration from Zoom to Microsoft Teams, coordinating stakeholders,
+                  managing change and de‑risking the cut‑over to deliver measurable cost savings.
+                </p>
+              </article>
+              <article class="card">
+                <h4>Zero Trust & security uplift</h4>
+                <p class="card-text">
+                  Implemented Zero Trust frameworks, advanced network security policies and RBAC in
+                  partnership with SecOps across Palo Alto, Meraki, Cisco and Microsoft platforms.
+                </p>
+              </article>
+              <article class="card">
+                <h4>Enterprise AV modernisation</h4>
+                <p class="card-text">
+                  Delivered a £45k AV upgrade with minimal disruption, modernising conference and
+                  meeting spaces and improving day‑to‑day collaboration.
+                </p>
+              </article>
+              <article class="card">
+                <h4>Documentation & mentoring</h4>
+                <p class="card-text">
+                  Produced ISO 27001‑aligned documentation, runbooks and knowledge articles, and
+                  mentored junior engineers to raise team capability and confidence.
+                </p>
+              </article>
+            </div>
+          </section>
 
-        <section>
-          <h3 class="section-title">Education</h3>
-          <article class="card">
+          <section aria-labelledby="education-heading">
+            <h2 id="education-heading" class="section-title">Education</h2>
+            <article class="card">
             <ul class="card-list">
-              <li>Foundation Degree (Hons) Music Production – University of West London</li>
+              <li>Foundation Degree (Hons) Music Production – University of Westminster</li>
               <li>BTEC Creative Music Production – Kensington and Chelsea College</li>
               <li>9 GCSEs; 4 AS levels; 3 A Levels</li>
             </ul>
           </article>
-        </section>
+          </section>
         </main>
       </div>
     </div>

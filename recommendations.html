@@ -20,7 +20,7 @@
   <body>
     <div class="site-shell">
       <header class="site-header">
-        <nav class="top-nav">
+        <nav class="top-nav" aria-label="Main">
           <a href="index.html">Overview</a>
           <a href="experience.html">Experience</a>
           <a href="recommendations.html" class="nav-active">Recommendations</a>
@@ -28,16 +28,16 @@
       </header>
 
       <div class="page">
-        <aside class="sidebar">
-        <div class="brand">
-          <div>
-            <h1 class="name">Ian Connors</h1>
-            <p class="role">Cloud & Infrastructure Engineer</p>
+        <aside class="sidebar" aria-label="Profile and contact">
+          <div class="brand">
+            <div>
+              <h1 class="name">Ian Connors</h1>
+              <p class="role">Cloud & Infrastructure Engineer</p>
+            </div>
+            <img src="profile.png" alt="Ian Connors" class="avatar" />
           </div>
-          <img src="profile.png" alt="Ian Connors" class="avatar" />
-        </div>
 
-        <div class="contact">
+          <div class="contact">
           <h2 class="sidebar-title">Contact</h2>
           <ul>
             <li>West London, UK</li>
@@ -107,19 +107,22 @@
             <li>Spanish (advanced)</li>
             <li>French (basic)</li>
           </ul>
-        </div>
+          </div>
         </aside>
 
         <main class="content">
-
-        <section>
-          <h3 class="section-title">Recommendations</h3>
-          <div class="grid grid--single">
+          <section class="recommendations-section" aria-labelledby="recommendations-heading">
+            <h2 id="recommendations-heading" class="section-title">Recommendations</h2>
+            <div class="grid grid--single">
             <figure class="card quote-card">
               <blockquote>
-                “He is reliable, proactive, and an asset to any team. I would highly recommend Ian
-                for any role or project, he brings both skill and outstanding character to the
-                table.”
+                “I had the pleasure of working with Ian, and I can say with complete confidence that he is
+                someone who always gives 110% in everything he does. His commitment, attitude, and work
+                ethic consistently stood out. Ian approaches challenges with positivity, diligence, and a genuine
+                desire to deliver exceptional results.
+                Working with him was not only productive but genuinely enjoyable. He is reliable, proactive, and
+                an asset to any team. I would highly recommend Ian for any role or project, he brings both skill
+                and outstanding character to the table.”
               </blockquote>
               <figcaption>
                 <span class="quote-name">Joaquim Ferreira</span>
@@ -129,9 +132,12 @@
 
             <figure class="card quote-card">
               <blockquote>
-                “Ian was always incredibly professional and never backed down from a challenge, even
-                when it meant expanding his skillset. He took on big transformational projects and
-                daily work with the same positive attitude and good humour.”
+                “I worked with Ian for two and a half years while I managed information security at intelliflo. Ian
+                was always incredibly professional and never backed down from a challenge, even when it meant
+                he needed to expand his current skillset. He was always willing to put in the extra time to do the
+                job right, and not cut corners. He took on big transformational projects and daily work with the
+                same positive attitude and good humor. I look forward to the day when we can work together
+                again.”
               </blockquote>
               <figcaption>
                 <span class="quote-name">Jason Adamson</span>
@@ -141,13 +147,17 @@
 
             <figure class="card quote-card">
               <blockquote>
-                “Ian is an outstanding professional, reliable and extremely easy to work with. He
-                brings no drama and just gets work done. His deep knowledge in networking and AV
-                technologies is matched by his exceptional work ethic. One of Ian’s many standout
-                qualities is his attention to detail and willingness to learn. His documentation is
-                thorough, clear and extremely helpful. Apart from his technical and documentation
-                skills, Ian is a mentor—he takes the time to show and explain configurations to
-                junior staff. Ian is someone you will always want on your team!”
+                “Ian is an outstanding professional, reliable and extremely easy to work with. He brings no drama
+                to the table and just gets work done.
+                Ian has deep knowledge in networking and AV technologies, amongst others, and this knowledge
+                is matched by his exceptional work ethic. He brings a calm approach which creates confidence
+                throughout the team.
+                One of Ian’s many standout qualities is his attention to detail, and willingness to learn. His
+                documentation is thorough, clear and extremely helpful which makes it easy for teams to follow
+                and understand. Apart from his technical and documentation skills, Ian is a mentor. He takes the
+                time to show and explain configurations he created to junior staff and I was told by them that
+                they learned a lot because of it.
+                Ian is someone who will always want on your team!”
               </blockquote>
               <figcaption>
                 <span class="quote-name">Dean Egan</span>
@@ -157,17 +167,23 @@
 
             <figure class="card quote-card">
               <blockquote>
-                “I've had the opportunity to collaborate closely with Ian in my role as an IT Support
-                Engineer, and his expertise and reliability as a Senior Infrastructure Engineer have
-                consistently stood out. Ian has demonstrated deep technical expertise across a wide
-                range of areas, particularly in cloud infrastructure—Azure, hybrid environments, and
-                cloud-based networking. He successfully led our company’s transition from Zoom to
-                Microsoft Teams and was pivotal in resolving complex network issues and revamping our
-                office conference room infrastructure. Ian’s approach is always thoughtful and
-                solution-oriented. He’s collaborative, approachable, and generous with his time and
-                knowledge. I highly recommend Ian to any organization looking for a seasoned
-                infrastructure expert with strong cloud capabilities and a proven track record of
-                delivering impactful results.”
+                “I've had the opportunity to collaborate closely with Ian in my role as an IT Support Engineer, and
+                his expertise and reliability as a Senior Infrastructure Engineer have consistently stood out.
+                Ian has consistently demonstrated deep technical expertise across a wide range of areas,
+                particularly in cloud infrastructure. His knowledge of Microsoft Azure, hybrid environments, and
+                cloud-based networking has been instrumental in improving our systems' scalability and
+                resilience. He's also played a key role in optimizing our cloud resource management and
+                ensuring secure, efficient connectivity across our platforms.
+                Among his many contributions, Ian successfully led our company's transition from Zoom to
+                Microsoft Teams, a project that required careful planning, stakeholder coordination, and
+                technical execution. He's also been pivotal in resolving complex network issues and
+                spearheading the revamp of our office conference room infrastructure—bringing in modern,
+                reliable solutions that have greatly enhanced our day-to-day operations.
+                Ian's approach is always thoughtful and solution-oriented. He's collaborative, approachable, and
+                generous with his time and knowledge, making him a valued colleague and a go-to person for
+                technical guidance.
+                I highly recommend Ian to any organization looking for a seasoned infrastructure expert with
+                strong cloud capabilities and a proven track record of delivering impactful results.”
               </blockquote>
               <figcaption>
                 <span class="quote-name">Brimma Jones</span>
@@ -177,12 +193,11 @@
 
             <figure class="card quote-card">
               <blockquote>
-                “Ian did an outstanding job leading our migration from Zoom to Microsoft Teams.
-                Ian’s technical expertise, clear communication, and proactive planning made the
-                transition smooth and seamless for our entire organisation. Ian anticipated
-                challenges, provided excellent support, and ensured minimal disruption to daily
-                operations. I highly recommend Ian for any IT project requiring strong leadership
-                and execution.”
+                “Ian did an outstanding job leading our migration from Zoom to Microsoft Teams. Ian's technical
+                expertise, clear communication, and proactive planning made the transition smooth and
+                seamless for our entire organisation. Ian anticipated challenges, provided excellent support, and
+                ensured minimal disruption to daily operations. I highly recommend Ian for any IT project
+                requiring strong leadership and execution.”
               </blockquote>
               <figcaption>
                 <span class="quote-name">India Campbell-Bans</span>
@@ -192,19 +207,23 @@
 
             <figure class="card quote-card">
               <blockquote>
-                “I've had the privilege of working alongside Ian Connors, and I can confidently say he
-                is one of the most dependable and technically proficient professionals in cloud
-                infrastructure and network administration. Ian brings a rare combination of deep
-                technical expertise, strategic thinking, and a calm, solutions-oriented approach to
-                every challenge. As a Senior Azure Infrastructure Engineer, Ian has consistently
-                demonstrated mastery in designing, deploying, and optimizing cloud environments that
-                are both secure and scalable. On the network side, Ian is equally impressive—whether
-                it's troubleshooting complex network issues or implementing enterprise-grade
-                solutions, he handles it all with precision and professionalism. Beyond his technical
-                skills, Ian is a fantastic collaborator who communicates clearly, mentors junior
-                team members, and always brings a positive, can-do attitude. Any team would be
-                lucky to have him. If you're looking for someone who can elevate your infrastructure
-                and network operations, Ian is the person you want on your side.”
+                “I've had the privilege of working alongside Ian Conners, and I can confidently say he is one of the
+                most dependable and technically proficient professionals in the field of cloud infrastructure and
+                network administration. Ian brings a rare combination of deep technical expertise, strategic
+                thinking, and a calm, solutions-oriented approach to every challenge.
+                As a Senior Azure Infrastructure Engineer, Ian has consistently demonstrated mastery in
+                designing, deploying, and optimizing cloud environments that are both secure and scalable. His
+                ability to anticipate potential issues and architect resilient solutions has saved countless hours
+                and resources.
+                On the Network side, Ian is equally impressive. He has a keen eye for detail, ensuring that
+                systems are not only operational but also optimized for performance and security. Whether it's
+                troubleshooting complex network issues or implementing enterprise-grade solutions, Ian handles
+                it all with precision and professionalism.
+                Beyond his technical skills, Ian is a fantastic collaborator. He communicates clearly, mentors
+                junior team members, and always brings a positive, can-do attitude to the table. Any team would
+                be lucky to have him.
+                If you're looking for someone who can elevate your infrastructure and network operations, Ian is
+                the person you want on your side.”
               </blockquote>
               <figcaption>
                 <span class="quote-name">Mithun Prakash</span>
@@ -223,8 +242,8 @@
                 <span class="quote-role">IT Infrastructure Engineer</span>
               </figcaption>
             </figure>
-          </div>
-        </section>
+            </div>
+          </section>
         </main>
       </div>
     </div>
