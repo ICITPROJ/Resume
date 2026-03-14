@@ -411,6 +411,10 @@ a:hover {
   gap: 14px;
 }
 
+.grid--single {
+  grid-template-columns: 1fr;
+}
+
 .quote-card blockquote {
   margin: 0;
   font-size: 0.9rem;
