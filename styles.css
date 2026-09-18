@@ -182,18 +182,17 @@ a:focus-visible {
 }
 
 .stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
   margin-top: 8px;
 }
 
 .stat {
-  padding: 10px 12px;
+  padding: 10px 8px;
   border-radius: 14px;
   background: #f9fafb;
   border: 1px solid rgba(209, 213, 219, 0.9);
-  min-width: 0;
 }
 
 .stat-number {
@@ -222,6 +221,7 @@ a:focus-visible {
   border: 1px solid rgba(191, 219, 254, 0.95);
   font-size: 0.8rem;
   color: #1d4ed8;
+  max-width: 100%;
 }
 
 .content {
@@ -301,6 +301,8 @@ a:focus-visible {
 .hero h2 {
   margin: 0 0 10px;
   font-size: clamp(1.7rem, 2.2vw, 2.1rem);
+  hyphens: none;
+  overflow-wrap: normal;
 }
 
 .hero-text {
